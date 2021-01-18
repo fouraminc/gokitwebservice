@@ -1,4 +1,7 @@
  */*         #ignore all files in each directory
+ .DS_Store
+ .idea
+ .idea/*
  !*/*.go      #unignore .c files in each directory
  !*/*.mod      #unignore .h header files in each directory
  !.gitignore #unignore .gitignore
